@@ -1,0 +1,3447 @@
+{
+  "run_id": null,
+  "name": "DEMO (mock data) — China reconciliation",
+  "overall_status": "FAIL",
+  "overall_reasons": [
+    "6 mandatory visual(s) have confirmed differences (PASS=1, FAIL=6, UNSUPPORTED=2)."
+  ],
+  "started_at": "2026-11-25T11:30:36.486485Z",
+  "finished_at": "2026-11-25T11:30:36.554214Z",
+  "is_mock": true,
+  "config": {
+    "name": "DEMO (mock data) — China reconciliation",
+    "country": {
+      "original_table": "Geography",
+      "original_column": "CountryName",
+      "original_export_column": null,
+      "migrated_table": "Geography",
+      "migrated_column": "Country",
+      "migrated_export_column": null,
+      "value": "China",
+      "scope": "report",
+      "apply_to_migrated": false,
+      "allow_replace_conflicting": false
+    },
+    "tolerance": {
+      "absolute": "0",
+      "percentage": "0"
+    },
+    "normalization": {
+      "trim_whitespace": true,
+      "text_case": "preserve",
+      "decimal_separator": ".",
+      "thousands_separator": ",",
+      "strip_currency_symbols": true,
+      "percent_mode": "as_number",
+      "parentheses_negative": true,
+      "null_tokens": [
+        "",
+        "(Blank)",
+        "null",
+        "NULL",
+        "NaN",
+        "N/A"
+      ],
+      "treat_null_as_zero": false,
+      "decimal_places": 2,
+      "date_columns": {},
+      "auto_detect_dates": true,
+      "date_dayfirst": false,
+      "sort_categories": true
+    },
+    "extraction_mode": "SUMMARIZED",
+    "page_mappings": [
+      {
+        "original_page": "ReportSection1a2b",
+        "migrated_page": "ReportSectionAA01",
+        "confidence": 0.8909,
+        "provenance": "auto",
+        "approved": true
+      },
+      {
+        "original_page": "ReportSection3c4d",
+        "migrated_page": "ReportSectionBB02",
+        "confidence": 0.84,
+        "provenance": "auto",
+        "approved": true
+      }
+    ],
+    "visual_mappings": [
+      {
+        "original_page": "ReportSection3c4d",
+        "original_visual": "b2e00c11d2e3f4a5b6c7",
+        "migrated_page": "ReportSectionBB02",
+        "migrated_visual": "d4e22f33a4b5c6d7e8f9",
+        "confidence": 0.9525,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 1.0,
+          "type": 1.0,
+          "page": 0.6,
+          "columns": 0.95,
+          "series": 1.0,
+          "shape": 1.0,
+          "categories": 1.0
+        },
+        "explanation": "auto-approved (high confidence, unambiguous). Signals: title=1.00, type=1.00, page=0.60, columns=0.95, series=1.00, shape=1.00, categories=1.00",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection3c4d",
+        "original_visual": "b2e00c11d2e3f4a5b6c8",
+        "migrated_page": "ReportSectionBB02",
+        "migrated_visual": "d4e22f33a4b5c6d7e8fa",
+        "confidence": 0.9121,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 1.0,
+          "type": 1.0,
+          "page": 0.6,
+          "columns": 0.9667,
+          "series": 1.0,
+          "shape": 0.9412,
+          "categories": 0.8
+        },
+        "explanation": "auto-approved (high confidence, unambiguous). Signals: title=1.00, type=1.00, page=0.60, columns=0.97, series=1.00, shape=0.94, categories=0.80",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection1a2b",
+        "original_visual": "a1f00c11d2e3f4a5b6c8",
+        "migrated_page": "ReportSectionAA01",
+        "migrated_visual": "c3d11e22f3a4b5c6d7e9",
+        "confidence": 0.8577,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 0.6667,
+          "type": 1.0,
+          "page": 0.7273,
+          "columns": 0.9,
+          "series": 1.0,
+          "shape": 1.0,
+          "categories": 1.0
+        },
+        "explanation": "auto-approved (high confidence, unambiguous). Signals: title=0.67, type=1.00, page=0.73, columns=0.90, series=1.00, shape=1.00, categories=1.00",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection3c4d",
+        "original_visual": "b2e00c11d2e3f4a5b6c9",
+        "migrated_page": "ReportSectionBB02",
+        "migrated_visual": "d4e22f33a4b5c6d7e8fb",
+        "confidence": 0.8568,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 0.7059,
+          "type": 1.0,
+          "page": 0.6,
+          "columns": 0.9,
+          "series": 1.0,
+          "shape": 1.0,
+          "categories": 1.0
+        },
+        "explanation": "auto-approved (high confidence, unambiguous). Signals: title=0.71, type=1.00, page=0.60, columns=0.90, series=1.00, shape=1.00, categories=1.00",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection1a2b",
+        "original_visual": "a1f00c11d2e3f4a5b6d0",
+        "migrated_page": "ReportSectionAA01",
+        "migrated_visual": "c3d11e22f3a4b5c6d7f1",
+        "confidence": 0.8227,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 0.7917,
+          "type": 0.8,
+          "page": 0.7273,
+          "columns": 0.95,
+          "series": 1.0,
+          "shape": 0.8,
+          "categories": 0.8
+        },
+        "explanation": "below auto-approve threshold; review required. Signals: title=0.79, type=0.80, page=0.73, columns=0.95, series=1.00, shape=0.80, categories=0.80",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection1a2b",
+        "original_visual": "a1f00c11d2e3f4a5b6c9",
+        "migrated_page": "ReportSectionAA01",
+        "migrated_visual": "c3d11e22f3a4b5c6d7f0",
+        "confidence": 0.795,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 0.566,
+          "type": 1.0,
+          "page": 0.7273,
+          "columns": 0.95,
+          "series": 1.0,
+          "shape": 1.0,
+          "categories": 0.8
+        },
+        "explanation": "below auto-approve threshold; review required. Signals: title=0.57, type=1.00, page=0.73, columns=0.95, series=1.00, shape=1.00, categories=0.80",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      },
+      {
+        "original_page": "ReportSection1a2b",
+        "original_visual": "a1f00c11d2e3f4a5b6c7",
+        "migrated_page": "ReportSectionAA01",
+        "migrated_visual": "c3d11e22f3a4b5c6d7e8",
+        "confidence": 0.7909,
+        "provenance": "auto",
+        "approved": true,
+        "signals": {
+          "title": 0.5833,
+          "type": 1.0,
+          "page": 0.7273,
+          "columns": 0.9,
+          "series": 1.0,
+          "shape": 1.0
+        },
+        "explanation": "below auto-approve threshold; review required. Signals: title=0.58, type=1.00, page=0.73, columns=0.90, series=1.00, shape=1.00 (not available: categories; weights renormalised)",
+        "column_mappings": [],
+        "key_columns": [],
+        "tolerance": null,
+        "mandatory": true,
+        "unpivot": null
+      }
+    ],
+    "auto_approve_threshold": 0.85,
+    "require_context_validation": true
+  },
+  "original": {
+    "role": "original",
+    "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+    "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+    "report_name": "Sales Report (Original) [MOCK]",
+    "dataset_id": "2a2a2a2a-0000-4000-8000-000000000001",
+    "pages": [
+      {
+        "name": "ReportSection1a2b",
+        "display_name": "Sales Overview",
+        "order": 0
+      },
+      {
+        "name": "ReportSection3c4d",
+        "display_name": "Trends",
+        "order": 1
+      }
+    ],
+    "visuals": [
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6c7",
+        "visual_type": "card",
+        "visual_title": "Total Sales",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.435258Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 1,
+        "rows_requested": 30000,
+        "raw_csv": "Total Sales\r\n1286170.39\r\n",
+        "raw_sha256": "45a3ef8a79f315a76ad27d24572c64cb7cd6869526c56390987ee96fe259b630",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 200,
+          "height": 120,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6c8",
+        "visual_type": "clusteredColumnChart",
+        "visual_title": "Sales by Month",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.436258Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 12,
+        "rows_requested": 30000,
+        "raw_csv": "Month,Sales\r\nJanuary 2024,87627.47\r\nFebruary 2024,89511.37\r\nMarch 2024,89098.59\r\nApril 2024,128668.18\r\nMay 2024,77504.67\r\nJune 2024,117604.99\r\nJuly 2024,119726.43\r\nAugust 2024,93475.81\r\nSeptember 2024,87773.63\r\nOctober 2024,125245.63\r\nNovember 2024,157400.05\r\nDecember 2024,112533.57\r\n",
+        "raw_sha256": "c844f63cdd2d9ec0d8610483151cc9ecee7ad0743328ca748466ca0f582c9208",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 220,
+          "y": 0,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6c9",
+        "visual_type": "tableEx",
+        "visual_title": "Sales by Category and Month",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.436258Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 48,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Month,Sales,Units\r\nApparel,January 2024,37335.97,260\r\nApparel,February 2024,29934.13,42\r\nApparel,March 2024,36084.96,728\r\nApparel,April 2024,38181.56,173\r\nApparel,May 2024,6008.3,399\r\nApparel,June 2024,23511.82,137\r\nApparel,July 2024,44387.14,380\r\nApparel,August 2024,49275.85,885\r\nApparel,September 2024,8970.05,373\r\nApparel,October 2024,32113.94,556\r\nApparel,November 2024,34719.94,234\r\nApparel,December 2024,40447.24,420\r\nElectronics,January 2024,32331.91,35\r\nElectronics,February 2024,44716.8,99\r\nElectronics,March 2024,2300.26,213\r\nElectronics,April 2024,40662.09,16\r\nElectronics,May 2024,47903.44,354\r\nElectronics,June 2024,40549.29,757\r\nElectronics,July 2024,41640.83,643\r\nElectronics,August 2024,12167.02,306\r\nElectronics,September 2024,32148.54,383\r\nElectronics,October 2024,32753.73,633\r\nElectronics,November 2024,49486.64,665\r\nElectronics,December 2024,12223.36,42\r\nHome,January 2024,11937.33,764\r\nHome,February 2024,2460.06,233\r\nHome,March 2024,27702.13,235\r\nHome,April 2024,35208.83,358\r\nHome,May 2024,5739.1,877\r\nHome,June 2024,48682.67,397\r\nHome,July 2024,29290.26,0\r\nHome,August 2024,12406.75,113\r\nHome,September 2024,11265.84,283\r\nHome,October 2024,36727.21,177\r\nHome,November 2024,34546.1,873\r\nHome,December 2024,14119.3,226\r\nSports,January 2024,6022.26,768\r\nSports,February 2024,12400.38,626\r\nSports,March 2024,23011.24,294\r\nSports,April 2024,14615.7,230\r\nSports,May 2024,17853.83,280\r\nSports,June 2024,4861.21,310\r\nSports,July 2024,4408.2,687\r\nSports,August 2024,19626.19,474\r\nSports,September 2024,35389.2,709\r\nSports,October 2024,23650.75,286\r\nSports,November 2024,38647.37,67\r\nSports,December 2024,45743.67,590\r\n",
+        "raw_sha256": "22bd669280fe11c37c2dbbe4688fee9aaa69c294125c4754289299d37f9a2cff",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 260,
+          "z": 0,
+          "width": 620,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6d0",
+        "visual_type": "pieChart",
+        "visual_title": "Sales Share by Category",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 4,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Sales\r\nApparel,380970.9\r\nElectronics,388883.91\r\nHome,270085.58\r\nSports,246230\r\n",
+        "raw_sha256": "9fe1441870be7083882cc7580e5a4b932a701042be09176cf5ceaed17e1c2541",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 640,
+          "y": 0,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6d1",
+        "visual_type": "slicer",
+        "visual_title": "Country",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "SKIPPED_NON_DATA",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": null,
+        "rows_requested": null,
+        "raw_csv": null,
+        "raw_sha256": null,
+        "error_code": null,
+        "error_message": "Slicer: not a data visual; state captured as context evidence.",
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 1060,
+          "y": 0,
+          "z": 0,
+          "width": 200,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6d2",
+        "visual_type": "textbox",
+        "visual_title": null,
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "SKIPPED_NON_DATA",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": null,
+        "rows_requested": null,
+        "raw_csv": null,
+        "raw_sha256": null,
+        "error_code": null,
+        "error_message": "Non-data visual type 'textbox'.",
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 600,
+          "z": 0,
+          "width": 300,
+          "height": 40,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6d3",
+        "visual_type": "bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B",
+        "visual_title": "Target Bullet",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "UNSUPPORTED",
+        "completeness": "INCOMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": null,
+        "rows_requested": 30000,
+        "raw_csv": null,
+        "raw_sha256": null,
+        "error_code": "ExportDataNotSupported",
+        "error_message": "Looks like a custom (AppSource/organizational) visual; custom visuals are not supported by exportData (documented). Export attempted to confirm. Export error: Export data is not supported for this visual",
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 640,
+          "y": 260,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection1a2b",
+        "page_display_name": "Sales Overview",
+        "visual_name": "a1f00c11d2e3f4a5b6d4",
+        "visual_type": "scriptVisual",
+        "visual_title": "R Forecast",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "UNSUPPORTED",
+        "completeness": "INCOMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": null,
+        "rows_requested": null,
+        "raw_csv": null,
+        "raw_sha256": null,
+        "error_code": "unsupported_visual_type",
+        "error_message": "R visuals are not supported by exportData (documented).",
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 640,
+          "y": 520,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection3c4d",
+        "page_display_name": "Trends",
+        "visual_name": "b2e00c11d2e3f4a5b6c7",
+        "visual_type": "lineChart",
+        "visual_title": "Units Trend",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.437269Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 12,
+        "rows_requested": 30000,
+        "raw_csv": "Month,Units\r\nJanuary 2024,1827\r\nFebruary 2024,1000\r\nMarch 2024,1470\r\nApril 2024,777\r\nMay 2024,1910\r\nJune 2024,1601\r\nJuly 2024,1710\r\nAugust 2024,1778\r\nSeptember 2024,1748\r\nOctober 2024,1652\r\nNovember 2024,1839\r\nDecember 2024,1278\r\n",
+        "raw_sha256": "514d4a612dc7101624ded6526bc19bc660edf6849cc7bdc50c5ba1380ac05909",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 800,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection3c4d",
+        "page_display_name": "Trends",
+        "visual_name": "b2e00c11d2e3f4a5b6c8",
+        "visual_type": "pivotTable",
+        "visual_title": "Category by Quarter",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.438259Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 16,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Quarter,Sales\r\nApparel,2024 Q1,103355.06\r\nApparel,2024 Q2,67701.68\r\nApparel,2024 Q3,102633.04\r\nApparel,2024 Q4,107281.12\r\nElectronics,2024 Q1,79348.97\r\nElectronics,2024 Q2,129114.82\r\nElectronics,2024 Q3,85956.39\r\nElectronics,2024 Q4,94463.73\r\nHome,2024 Q1,42099.52\r\nHome,2024 Q2,89630.6\r\nHome,2024 Q3,52962.85\r\nHome,2024 Q4,85392.61\r\nSports,2024 Q1,41433.88\r\nSports,2024 Q2,37330.74\r\nSports,2024 Q3,59423.59\r\nSports,2024 Q4,108041.79\r\n",
+        "raw_sha256": "9c4a53f878c7e210d0870ad4caa11cf595b7eb4694ad7243120ccd64ec6f0d93",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 320,
+          "z": 0,
+          "width": 600,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1a1a1a1a-0000-4000-8000-000000000001",
+        "report_id": "0a0a0a0a-0000-4000-8000-000000000001",
+        "page_name": "ReportSection3c4d",
+        "page_display_name": "Trends",
+        "visual_name": "b2e00c11d2e3f4a5b6c9",
+        "visual_type": "tableEx",
+        "visual_title": "Sales by Country",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.439249Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 1,
+        "rows_requested": 30000,
+        "raw_csv": "CountryName,Sales\r\nChina,1286170.39\r\n",
+        "raw_sha256": "5da95eb104fde5c77789b603a6d91372cc3af2159b04d90104b0fed4cbde98e3",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 620,
+          "y": 320,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      }
+    ],
+    "context": {
+      "status": "VALIDATED",
+      "required": true,
+      "target_table": "Geography",
+      "target_column": "CountryName",
+      "value": "China",
+      "report_filters_before": [
+        {
+          "$schema": "http://powerbi.com/product/schema#basic",
+          "target": {
+            "table": "Calendar",
+            "column": "Year"
+          },
+          "operator": "In",
+          "values": [
+            2024
+          ],
+          "filterType": 1
+        }
+      ],
+      "report_filters_after": [
+        {
+          "$schema": "http://powerbi.com/product/schema#basic",
+          "target": {
+            "table": "Calendar",
+            "column": "Year"
+          },
+          "operator": "In",
+          "values": [
+            2024
+          ],
+          "filterType": 1
+        },
+        {
+          "$schema": "http://powerbi.com/product/schema#basic",
+          "target": {
+            "table": "Geography",
+            "column": "CountryName"
+          },
+          "operator": "In",
+          "values": [
+            "China"
+          ],
+          "filterType": 1
+        }
+      ],
+      "page_filters": {
+        "ReportSection1a2b": [],
+        "ReportSection3c4d": []
+      },
+      "slicer_states": [
+        {
+          "page": "ReportSection1a2b",
+          "visual": "a1f00c11d2e3f4a5b6d1",
+          "title": "Country",
+          "state": {
+            "filters": [],
+            "targets": [
+              {
+                "table": "Geography",
+                "column": "CountryName"
+              }
+            ]
+          }
+        }
+      ],
+      "bookmark_state_captured": true,
+      "action_taken": "add",
+      "messages": [
+        "No existing report filter on the country field; adding Basic In filter.",
+        "Note: the Power BI JS API may not expose every effective filter (hidden filters, cross-highlighting, RLS).",
+        "Report-level filter Geography[CountryName] In ['China'] confirmed."
+      ]
+    },
+    "started_at": "2026-11-25T11:30:36.435258Z",
+    "finished_at": "2026-11-25T11:30:36.439249Z",
+    "is_mock": true,
+    "log": [
+      "MOCK embed (no Power BI).",
+      "MOCK DRIVER: data comes from fixtures, not from Power BI.",
+      "mock: loaded report 0a0a0a0a-0000-4000-8000-000000000001"
+    ],
+    "fatal_error": null
+  },
+  "migrated": {
+    "role": "migrated",
+    "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+    "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+    "report_name": "Sales Report (Migrated) [MOCK]",
+    "dataset_id": "2b2b2b2b-0000-4000-8000-000000000002",
+    "pages": [
+      {
+        "name": "ReportSectionAA01",
+        "display_name": "Overview",
+        "order": 0
+      },
+      {
+        "name": "ReportSectionBB02",
+        "display_name": "Trend Analysis",
+        "order": 1
+      }
+    ],
+    "visuals": [
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7e8",
+        "visual_type": "card",
+        "visual_title": "Total Revenue",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.439249Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 1,
+        "rows_requested": 30000,
+        "raw_csv": "Total Revenue\r\n1259180.134\r\n",
+        "raw_sha256": "dfb1e7bd474345071bdedd6df5ba6f8541ed2509c70d3f1fb627ffe1d612df15",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 200,
+          "height": 120,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7e9",
+        "visual_type": "clusteredColumnChart",
+        "visual_title": "Revenue by Month",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.440368Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 12,
+        "rows_requested": 30000,
+        "raw_csv": "Period,Revenue\r\n2024-01-01,87627.47\r\n2024-02-01,89511.37\r\n2024-03-01,90598.59\r\n2024-04-01,128668.18\r\n2024-05-01,77504.674\r\n2024-06-01,117604.99\r\n2024-07-01,90436.17\r\n2024-08-01,93475.81\r\n2024-09-01,87773.63\r\n2024-10-01,125245.63\r\n2024-11-01,157400.05\r\n2024-12-01,113333.57\r\n",
+        "raw_sha256": "48d4c498bb566e5173ff501f58a93f7f69fa46272564a3a7944d5ce2be49e6cf",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 220,
+          "y": 0,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7f0",
+        "visual_type": "tableEx",
+        "visual_title": "Revenue by Category & Period",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.440368Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 48,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Period,Revenue,Units\r\nAccessories,2024-12-01,800,0\r\nApparel,2024-01-01,37335.97,260\r\nApparel,2024-02-01,29934.13,42\r\nApparel,2024-03-01,36084.96,728\r\nApparel,2024-04-01,38181.56,173\r\nApparel,2024-05-01,6008.304,399\r\nApparel,2024-06-01,23511.82,137\r\nApparel,2024-07-01,44387.14,380\r\nApparel,2024-08-01,49275.85,885\r\nApparel,2024-09-01,8970.05,373\r\nApparel,2024-10-01,32113.94,556\r\nApparel,2024-11-01,34719.94,234\r\nApparel,2024-12-01,40447.24,420\r\nElectronics,2024-01-01,32331.91,35\r\nElectronics,2024-02-01,44716.8,99\r\nElectronics,2024-03-01,3800.26,213\r\nElectronics,2024-04-01,40662.09,16\r\nElectronics,2024-05-01,47903.44,354\r\nElectronics,2024-06-01,40549.29,757\r\nElectronics,2024-07-01,41640.83,643\r\nElectronics,2024-08-01,12167.02,306\r\nElectronics,2024-09-01,32148.54,383\r\nElectronics,2024-10-01,32753.73,633\r\nElectronics,2024-11-01,49486.64,665\r\nElectronics,2024-12-01,12223.36,42\r\nHome,2024-01-01,11937.33,764\r\nHome,2024-02-01,2460.06,233\r\nHome,2024-03-01,27702.13,235\r\nHome,2024-04-01,35208.83,358\r\nHome,2024-05-01,5739.1,877\r\nHome,2024-06-01,48682.67,397\r\nHome,2024-08-01,12406.75,113\r\nHome,2024-09-01,11265.84,283\r\nHome,2024-10-01,36727.21,177\r\nHome,2024-11-01,34546.1,873\r\nHome,2024-12-01,14119.3,226\r\nSports,2024-01-01,6022.26,768\r\nSports,2024-02-01,12400.38,626\r\nSports,2024-03-01,23011.24,294\r\nSports,2024-04-01,14615.7,230\r\nSports,2024-05-01,17853.83,280\r\nSports,2024-06-01,4861.21,310\r\nSports,2024-07-01,4408.2,687\r\nSports,2024-08-01,19626.19,474\r\nSports,2024-09-01,35389.2,709\r\nSports,2024-10-01,23650.75,286\r\nSports,2024-11-01,38647.37,67\r\nSports,2024-12-01,45743.67,590\r\n",
+        "raw_sha256": "504370fc23ef459d53125743e1a0014e3046e38ee9b772f60f8f4e3715e5976e",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 260,
+          "z": 0,
+          "width": 620,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7f1",
+        "visual_type": "donutChart",
+        "visual_title": "Revenue Share by Category",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.440368Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 5,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Revenue\r\nAccessories,800\r\nApparel,380970.904\r\nElectronics,390383.91\r\nHome,240795.32\r\nSports,246230\r\n",
+        "raw_sha256": "a439bd0c87b4fe0a79f0dad784d088cdd1325a9e5aff4ef3206685a05bf59e07",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 640,
+          "y": 0,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7f2",
+        "visual_type": "card",
+        "visual_title": "Margin %",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.441750Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 1,
+        "rows_requested": 30000,
+        "raw_csv": "Margin %\r\n23.4%\r\n",
+        "raw_sha256": "65ba97c2fbaee537085dfc9f5a68d741187b2b453e17f7b22460e46b46a299ba",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 1060,
+          "y": 0,
+          "z": 0,
+          "width": 200,
+          "height": 120,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionAA01",
+        "page_display_name": "Overview",
+        "visual_name": "c3d11e22f3a4b5c6d7f3",
+        "visual_type": "textbox",
+        "visual_title": null,
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.441750Z",
+        "status": "SKIPPED_NON_DATA",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": null,
+        "rows_requested": null,
+        "raw_csv": null,
+        "raw_sha256": null,
+        "error_code": null,
+        "error_message": "Non-data visual type 'textbox'.",
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 600,
+          "z": 0,
+          "width": 300,
+          "height": 40,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionBB02",
+        "page_display_name": "Trend Analysis",
+        "visual_name": "d4e22f33a4b5c6d7e8f9",
+        "visual_type": "lineChart",
+        "visual_title": "Units Trend",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.441750Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 12,
+        "rows_requested": 30000,
+        "raw_csv": "Period,Units\r\n2024-01-01,1827\r\n2024-02-01,1000\r\n2024-03-01,1470\r\n2024-04-01,777\r\n2024-05-01,1910\r\n2024-06-01,1601\r\n2024-07-01,1710\r\n2024-08-01,1778\r\n2024-09-01,1748\r\n2024-10-01,1652\r\n2024-11-01,1839\r\n2024-12-01,1278\r\n",
+        "raw_sha256": "71dcf1bf79ab0d49dae49636da6d6f9395719e6b6902f660d50cb6c85c97ab69",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 800,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionBB02",
+        "page_display_name": "Trend Analysis",
+        "visual_name": "d4e22f33a4b5c6d7e8fa",
+        "visual_type": "pivotTable",
+        "visual_title": "Category by Quarter",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.441750Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 17,
+        "rows_requested": 30000,
+        "raw_csv": "Category,Quarter,Revenue\r\nAccessories,Q4 2024,800\r\nApparel,Q1 2024,103355.06\r\nApparel,Q2 2024,67701.684\r\nApparel,Q3 2024,102633.04\r\nApparel,Q4 2024,107281.12\r\nElectronics,Q1 2024,80848.97\r\nElectronics,Q2 2024,129114.82\r\nElectronics,Q3 2024,85956.39\r\nElectronics,Q4 2024,94463.73\r\nHome,Q1 2024,42099.52\r\nHome,Q2 2024,89630.6\r\nHome,Q3 2024,23672.59\r\nHome,Q4 2024,85392.61\r\nSports,Q1 2024,41433.88\r\nSports,Q2 2024,37330.74\r\nSports,Q3 2024,59423.59\r\nSports,Q4 2024,108041.79\r\n",
+        "raw_sha256": "4993285673d7884576276903c29938cdd4a02e69f125da919f23958787347f3c",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 0,
+          "y": 320,
+          "z": 0,
+          "width": 600,
+          "height": 300,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      },
+      {
+        "workspace_id": "1b1b1b1b-0000-4000-8000-000000000002",
+        "report_id": "0b0b0b0b-0000-4000-8000-000000000002",
+        "page_name": "ReportSectionBB02",
+        "page_display_name": "Trend Analysis",
+        "visual_name": "d4e22f33a4b5c6d7e8fb",
+        "visual_type": "tableEx",
+        "visual_title": "Revenue by Country",
+        "extraction_mode": "SUMMARIZED",
+        "extracted_at": "2026-11-25T11:30:36.442842Z",
+        "status": "SUCCESS",
+        "completeness": "COMPLETE",
+        "source_method": "MOCK_FIXTURE",
+        "row_count": 1,
+        "rows_requested": 30000,
+        "raw_csv": "Country,Revenue\r\nChina,1259180.134\r\n",
+        "raw_sha256": "0bffc8f0792a7dfbfceb493e1296073b0d0ad8472f100d12777a11ecab357c91",
+        "error_code": null,
+        "error_message": null,
+        "truncation_info": null,
+        "visual_filters": [],
+        "layout": {
+          "x": 620,
+          "y": 320,
+          "z": 0,
+          "width": 400,
+          "height": 250,
+          "displayState": {
+            "mode": 0
+          }
+        },
+        "screenshot_path": null,
+        "fallback_equivalence_confirmed": false
+      }
+    ],
+    "context": {
+      "status": "NOT_REQUIRED",
+      "required": false,
+      "target_table": "Geography",
+      "target_column": "Country",
+      "value": "China",
+      "report_filters_before": [],
+      "report_filters_after": [],
+      "page_filters": {
+        "ReportSectionAA01": [],
+        "ReportSectionBB02": []
+      },
+      "slicer_states": [],
+      "bookmark_state_captured": true,
+      "action_taken": null,
+      "messages": [
+        "Note: the Power BI JS API may not expose every effective filter (hidden filters, cross-highlighting, RLS).",
+        "Context not applied (report expected to be single-country by design); no contradicting filters found. Data-level checks still apply."
+      ]
+    },
+    "started_at": "2026-11-25T11:30:36.439249Z",
+    "finished_at": "2026-11-25T11:30:36.442842Z",
+    "is_mock": true,
+    "log": [
+      "MOCK embed (no Power BI).",
+      "MOCK DRIVER: data comes from fixtures, not from Power BI.",
+      "mock: loaded report 0b0b0b0b-0000-4000-8000-000000000002"
+    ],
+    "fatal_error": null
+  },
+  "visual_results": [
+    {
+      "original_page": "ReportSection3c4d",
+      "original_visual": "b2e00c11d2e3f4a5b6c7",
+      "original_title": "Units Trend",
+      "original_page_display": "Trends",
+      "migrated_page": "ReportSectionBB02",
+      "migrated_visual": "d4e22f33a4b5c6d7e8f9",
+      "migrated_title": "Units Trend",
+      "migrated_page_display": "Trend Analysis",
+      "visual_type": "lineChart",
+      "mandatory": true,
+      "status": "PASS",
+      "reasons": [
+        "All 12 compared record(s) within tolerance; extraction complete; context validated."
+      ],
+      "key_columns": [
+        "Month"
+      ],
+      "value_columns": [
+        "Units"
+      ],
+      "rows_original": 12,
+      "rows_migrated": 12,
+      "rows_compared": 12,
+      "rows_matched": 12,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 0,
+      "duplicate_keys": 0,
+      "matching_records": [
+        {
+          "Month": "2024-01",
+          "Units": "1827.00"
+        },
+        {
+          "Month": "2024-02",
+          "Units": "1000.00"
+        },
+        {
+          "Month": "2024-03",
+          "Units": "1470.00"
+        },
+        {
+          "Month": "2024-04",
+          "Units": "777.00"
+        },
+        {
+          "Month": "2024-05",
+          "Units": "1910.00"
+        },
+        {
+          "Month": "2024-06",
+          "Units": "1601.00"
+        },
+        {
+          "Month": "2024-07",
+          "Units": "1710.00"
+        },
+        {
+          "Month": "2024-08",
+          "Units": "1778.00"
+        },
+        {
+          "Month": "2024-09",
+          "Units": "1748.00"
+        },
+        {
+          "Month": "2024-10",
+          "Units": "1652.00"
+        },
+        {
+          "Month": "2024-11",
+          "Units": "1839.00"
+        },
+        {
+          "Month": "2024-12",
+          "Units": "1278.00"
+        }
+      ],
+      "mismatches": [],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "date 'Month' normalized to monthly granularity",
+        "numeric parse 'Units' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Month": "2024-01",
+          "Units": "1827.00"
+        },
+        {
+          "Month": "2024-02",
+          "Units": "1000.00"
+        },
+        {
+          "Month": "2024-03",
+          "Units": "1470.00"
+        },
+        {
+          "Month": "2024-04",
+          "Units": "777.00"
+        },
+        {
+          "Month": "2024-05",
+          "Units": "1910.00"
+        },
+        {
+          "Month": "2024-06",
+          "Units": "1601.00"
+        },
+        {
+          "Month": "2024-07",
+          "Units": "1710.00"
+        },
+        {
+          "Month": "2024-08",
+          "Units": "1778.00"
+        },
+        {
+          "Month": "2024-09",
+          "Units": "1748.00"
+        },
+        {
+          "Month": "2024-10",
+          "Units": "1652.00"
+        },
+        {
+          "Month": "2024-11",
+          "Units": "1839.00"
+        },
+        {
+          "Month": "2024-12",
+          "Units": "1278.00"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Month": "2024-01",
+          "Units": "1827.00"
+        },
+        {
+          "Month": "2024-02",
+          "Units": "1000.00"
+        },
+        {
+          "Month": "2024-03",
+          "Units": "1470.00"
+        },
+        {
+          "Month": "2024-04",
+          "Units": "777.00"
+        },
+        {
+          "Month": "2024-05",
+          "Units": "1910.00"
+        },
+        {
+          "Month": "2024-06",
+          "Units": "1601.00"
+        },
+        {
+          "Month": "2024-07",
+          "Units": "1710.00"
+        },
+        {
+          "Month": "2024-08",
+          "Units": "1778.00"
+        },
+        {
+          "Month": "2024-09",
+          "Units": "1748.00"
+        },
+        {
+          "Month": "2024-10",
+          "Units": "1652.00"
+        },
+        {
+          "Month": "2024-11",
+          "Units": "1839.00"
+        },
+        {
+          "Month": "2024-12",
+          "Units": "1278.00"
+        }
+      ],
+      "mapping_confidence": 0.9525,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Month",
+          "migrated": "Period",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 0.8
+        },
+        {
+          "original": "Units",
+          "migrated": "Units",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 1.0
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [
+        {
+          "column": "Units",
+          "original_total": "18590.00",
+          "migrated_total": "18590.00",
+          "absolute_difference": "0.00",
+          "percentage_difference": "0.000000",
+          "within_tolerance": true,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided).",
+        "Date column 'Month': original granularity monthly, migrated daily; compared at monthly."
+      ]
+    },
+    {
+      "original_page": "ReportSection3c4d",
+      "original_visual": "b2e00c11d2e3f4a5b6c8",
+      "original_title": "Category by Quarter",
+      "original_page_display": "Trends",
+      "migrated_page": "ReportSectionBB02",
+      "migrated_visual": "d4e22f33a4b5c6d7e8fa",
+      "migrated_title": "Category by Quarter",
+      "migrated_page_display": "Trend Analysis",
+      "visual_type": "pivotTable",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: ADDITIONAL_RECORD=1, VALUE_MISMATCH=2"
+      ],
+      "key_columns": [
+        "Category",
+        "Quarter"
+      ],
+      "value_columns": [
+        "Sales"
+      ],
+      "rows_original": 16,
+      "rows_migrated": 17,
+      "rows_compared": 16,
+      "rows_matched": 14,
+      "missing_rows": 0,
+      "additional_rows": 1,
+      "numeric_mismatches": 2,
+      "duplicate_keys": 0,
+      "matching_records": [
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q1",
+          "Sales": "103355.06"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q2",
+          "Sales": "67701.68"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q3",
+          "Sales": "102633.04"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q4",
+          "Sales": "107281.12"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q2",
+          "Sales": "129114.82"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q3",
+          "Sales": "85956.39"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q4",
+          "Sales": "94463.73"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q1",
+          "Sales": "42099.52"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q2",
+          "Sales": "89630.60"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q4",
+          "Sales": "85392.61"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q1",
+          "Sales": "41433.88"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q2",
+          "Sales": "37330.74"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q3",
+          "Sales": "59423.59"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q4",
+          "Sales": "108041.79"
+        }
+      ],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Category": "Electronics",
+            "Quarter": "2024-Q1"
+          },
+          "column": "Sales",
+          "original_value": "79348.97",
+          "migrated_value": "80848.97",
+          "absolute_difference": "1500.00",
+          "percentage_difference": "1.890384",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Category": "Home",
+            "Quarter": "2024-Q3"
+          },
+          "column": "Sales",
+          "original_value": "52962.85",
+          "migrated_value": "23672.59",
+          "absolute_difference": "-29290.26",
+          "percentage_difference": "-55.303406",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "ADDITIONAL_RECORD",
+          "key": {
+            "Category": "Accessories",
+            "Quarter": "2024-Q4"
+          },
+          "column": null,
+          "original_value": null,
+          "migrated_value": {
+            "Sales": "800.00"
+          },
+          "absolute_difference": null,
+          "percentage_difference": null,
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": "record present in migrated, absent in original"
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "date 'Quarter' normalized to quarterly granularity",
+        "numeric parse 'Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q1",
+          "Sales": "103355.06"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q2",
+          "Sales": "67701.68"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q3",
+          "Sales": "102633.04"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q4",
+          "Sales": "107281.12"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q1",
+          "Sales": "79348.97"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q2",
+          "Sales": "129114.82"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q3",
+          "Sales": "85956.39"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q4",
+          "Sales": "94463.73"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q1",
+          "Sales": "42099.52"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q2",
+          "Sales": "89630.60"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q3",
+          "Sales": "52962.85"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q4",
+          "Sales": "85392.61"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q1",
+          "Sales": "41433.88"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q2",
+          "Sales": "37330.74"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q3",
+          "Sales": "59423.59"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q4",
+          "Sales": "108041.79"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Category": "Accessories",
+          "Quarter": "2024-Q4",
+          "Sales": "800.00"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q1",
+          "Sales": "103355.06"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q2",
+          "Sales": "67701.68"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q3",
+          "Sales": "102633.04"
+        },
+        {
+          "Category": "Apparel",
+          "Quarter": "2024-Q4",
+          "Sales": "107281.12"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q1",
+          "Sales": "80848.97"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q2",
+          "Sales": "129114.82"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q3",
+          "Sales": "85956.39"
+        },
+        {
+          "Category": "Electronics",
+          "Quarter": "2024-Q4",
+          "Sales": "94463.73"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q1",
+          "Sales": "42099.52"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q2",
+          "Sales": "89630.60"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q3",
+          "Sales": "23672.59"
+        },
+        {
+          "Category": "Home",
+          "Quarter": "2024-Q4",
+          "Sales": "85392.61"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q1",
+          "Sales": "41433.88"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q2",
+          "Sales": "37330.74"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q3",
+          "Sales": "59423.59"
+        },
+        {
+          "Category": "Sports",
+          "Quarter": "2024-Q4",
+          "Sales": "108041.79"
+        }
+      ],
+      "mapping_confidence": 0.9121,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Category",
+          "migrated": "Category",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 1.0
+        },
+        {
+          "original": "Quarter",
+          "migrated": "Quarter",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 1.0
+        },
+        {
+          "original": "Sales",
+          "migrated": "Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {
+        "Category": [
+          "Accessories"
+        ]
+      },
+      "derived_totals": [
+        {
+          "column": "Sales",
+          "original_total": "1286170.39",
+          "migrated_total": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "within_tolerance": false,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided)."
+      ]
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6c8",
+      "original_title": "Sales by Month",
+      "original_page_display": "Sales Overview",
+      "migrated_page": "ReportSectionAA01",
+      "migrated_visual": "c3d11e22f3a4b5c6d7e9",
+      "migrated_title": "Revenue by Month",
+      "migrated_page_display": "Overview",
+      "visual_type": "clusteredColumnChart",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: VALUE_MISMATCH=3"
+      ],
+      "key_columns": [
+        "Month"
+      ],
+      "value_columns": [
+        "Sales"
+      ],
+      "rows_original": 12,
+      "rows_migrated": 12,
+      "rows_compared": 12,
+      "rows_matched": 9,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 3,
+      "duplicate_keys": 0,
+      "matching_records": [
+        {
+          "Month": "2024-01",
+          "Sales": "87627.47"
+        },
+        {
+          "Month": "2024-02",
+          "Sales": "89511.37"
+        },
+        {
+          "Month": "2024-04",
+          "Sales": "128668.18"
+        },
+        {
+          "Month": "2024-05",
+          "Sales": "77504.67"
+        },
+        {
+          "Month": "2024-06",
+          "Sales": "117604.99"
+        },
+        {
+          "Month": "2024-08",
+          "Sales": "93475.81"
+        },
+        {
+          "Month": "2024-09",
+          "Sales": "87773.63"
+        },
+        {
+          "Month": "2024-10",
+          "Sales": "125245.63"
+        },
+        {
+          "Month": "2024-11",
+          "Sales": "157400.05"
+        }
+      ],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Month": "2024-03"
+          },
+          "column": "Sales",
+          "original_value": "89098.59",
+          "migrated_value": "90598.59",
+          "absolute_difference": "1500.00",
+          "percentage_difference": "1.683528",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Month": "2024-07"
+          },
+          "column": "Sales",
+          "original_value": "119726.43",
+          "migrated_value": "90436.17",
+          "absolute_difference": "-29290.26",
+          "percentage_difference": "-24.464323",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Month": "2024-12"
+          },
+          "column": "Sales",
+          "original_value": "112533.57",
+          "migrated_value": "113333.57",
+          "absolute_difference": "800.00",
+          "percentage_difference": "0.710899",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "date 'Month' normalized to monthly granularity",
+        "numeric parse 'Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Month": "2024-01",
+          "Sales": "87627.47"
+        },
+        {
+          "Month": "2024-02",
+          "Sales": "89511.37"
+        },
+        {
+          "Month": "2024-03",
+          "Sales": "89098.59"
+        },
+        {
+          "Month": "2024-04",
+          "Sales": "128668.18"
+        },
+        {
+          "Month": "2024-05",
+          "Sales": "77504.67"
+        },
+        {
+          "Month": "2024-06",
+          "Sales": "117604.99"
+        },
+        {
+          "Month": "2024-07",
+          "Sales": "119726.43"
+        },
+        {
+          "Month": "2024-08",
+          "Sales": "93475.81"
+        },
+        {
+          "Month": "2024-09",
+          "Sales": "87773.63"
+        },
+        {
+          "Month": "2024-10",
+          "Sales": "125245.63"
+        },
+        {
+          "Month": "2024-11",
+          "Sales": "157400.05"
+        },
+        {
+          "Month": "2024-12",
+          "Sales": "112533.57"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Month": "2024-01",
+          "Sales": "87627.47"
+        },
+        {
+          "Month": "2024-02",
+          "Sales": "89511.37"
+        },
+        {
+          "Month": "2024-03",
+          "Sales": "90598.59"
+        },
+        {
+          "Month": "2024-04",
+          "Sales": "128668.18"
+        },
+        {
+          "Month": "2024-05",
+          "Sales": "77504.67"
+        },
+        {
+          "Month": "2024-06",
+          "Sales": "117604.99"
+        },
+        {
+          "Month": "2024-07",
+          "Sales": "90436.17"
+        },
+        {
+          "Month": "2024-08",
+          "Sales": "93475.81"
+        },
+        {
+          "Month": "2024-09",
+          "Sales": "87773.63"
+        },
+        {
+          "Month": "2024-10",
+          "Sales": "125245.63"
+        },
+        {
+          "Month": "2024-11",
+          "Sales": "157400.05"
+        },
+        {
+          "Month": "2024-12",
+          "Sales": "113333.57"
+        }
+      ],
+      "mapping_confidence": 0.8577,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Month",
+          "migrated": "Period",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 0.8
+        },
+        {
+          "original": "Sales",
+          "migrated": "Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [
+        {
+          "column": "Sales",
+          "original_total": "1286170.39",
+          "migrated_total": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "within_tolerance": false,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided).",
+        "Date column 'Month': original granularity monthly, migrated daily; compared at monthly."
+      ]
+    },
+    {
+      "original_page": "ReportSection3c4d",
+      "original_visual": "b2e00c11d2e3f4a5b6c9",
+      "original_title": "Sales by Country",
+      "original_page_display": "Trends",
+      "migrated_page": "ReportSectionBB02",
+      "migrated_visual": "d4e22f33a4b5c6d7e8fb",
+      "migrated_title": "Revenue by Country",
+      "migrated_page_display": "Trend Analysis",
+      "visual_type": "tableEx",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: VALUE_MISMATCH=1"
+      ],
+      "key_columns": [
+        "CountryName"
+      ],
+      "value_columns": [
+        "Sales"
+      ],
+      "rows_original": 1,
+      "rows_migrated": 1,
+      "rows_compared": 1,
+      "rows_matched": 0,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 1,
+      "duplicate_keys": 0,
+      "matching_records": [],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "CountryName": "China"
+          },
+          "column": "Sales",
+          "original_value": "1286170.39",
+          "migrated_value": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "numeric parse 'Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "CountryName": "China",
+          "Sales": "1286170.39"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "CountryName": "China",
+          "Sales": "1259180.13"
+        }
+      ],
+      "mapping_confidence": 0.8568,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "CountryName",
+          "migrated": "Country",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 1.0
+        },
+        {
+          "original": "Sales",
+          "migrated": "Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [
+        {
+          "column": "Sales",
+          "original_total": "1286170.39",
+          "migrated_total": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "within_tolerance": false,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided)."
+      ]
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6d0",
+      "original_title": "Sales Share by Category",
+      "original_page_display": "Sales Overview",
+      "migrated_page": "ReportSectionAA01",
+      "migrated_visual": "c3d11e22f3a4b5c6d7f1",
+      "migrated_title": "Revenue Share by Category",
+      "migrated_page_display": "Overview",
+      "visual_type": "pieChart",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: ADDITIONAL_RECORD=1, VALUE_MISMATCH=2"
+      ],
+      "key_columns": [
+        "Category"
+      ],
+      "value_columns": [
+        "Sales"
+      ],
+      "rows_original": 4,
+      "rows_migrated": 5,
+      "rows_compared": 4,
+      "rows_matched": 2,
+      "missing_rows": 0,
+      "additional_rows": 1,
+      "numeric_mismatches": 2,
+      "duplicate_keys": 0,
+      "matching_records": [
+        {
+          "Category": "Apparel",
+          "Sales": "380970.90"
+        },
+        {
+          "Category": "Sports",
+          "Sales": "246230.00"
+        }
+      ],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Category": "Electronics"
+          },
+          "column": "Sales",
+          "original_value": "388883.91",
+          "migrated_value": "390383.91",
+          "absolute_difference": "1500.00",
+          "percentage_difference": "0.385719",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Category": "Home"
+          },
+          "column": "Sales",
+          "original_value": "270085.58",
+          "migrated_value": "240795.32",
+          "absolute_difference": "-29290.26",
+          "percentage_difference": "-10.844807",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "ADDITIONAL_RECORD",
+          "key": {
+            "Category": "Accessories"
+          },
+          "column": null,
+          "original_value": null,
+          "migrated_value": {
+            "Sales": "800.00"
+          },
+          "absolute_difference": null,
+          "percentage_difference": null,
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": "record present in migrated, absent in original"
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "numeric parse 'Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Category": "Apparel",
+          "Sales": "380970.90"
+        },
+        {
+          "Category": "Electronics",
+          "Sales": "388883.91"
+        },
+        {
+          "Category": "Home",
+          "Sales": "270085.58"
+        },
+        {
+          "Category": "Sports",
+          "Sales": "246230.00"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Category": "Accessories",
+          "Sales": "800.00"
+        },
+        {
+          "Category": "Apparel",
+          "Sales": "380970.90"
+        },
+        {
+          "Category": "Electronics",
+          "Sales": "390383.91"
+        },
+        {
+          "Category": "Home",
+          "Sales": "240795.32"
+        },
+        {
+          "Category": "Sports",
+          "Sales": "246230.00"
+        }
+      ],
+      "mapping_confidence": 0.8227,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Category",
+          "migrated": "Category",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 1.0
+        },
+        {
+          "original": "Sales",
+          "migrated": "Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {
+        "Category": [
+          "Accessories"
+        ]
+      },
+      "derived_totals": [
+        {
+          "column": "Sales",
+          "original_total": "1286170.39",
+          "migrated_total": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "within_tolerance": false,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided)."
+      ]
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6c9",
+      "original_title": "Sales by Category and Month",
+      "original_page_display": "Sales Overview",
+      "migrated_page": "ReportSectionAA01",
+      "migrated_visual": "c3d11e22f3a4b5c6d7f0",
+      "migrated_title": "Revenue by Category & Period",
+      "migrated_page_display": "Overview",
+      "visual_type": "tableEx",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: ADDITIONAL_RECORD=1, MISSING_RECORD=1, VALUE_MISMATCH=1"
+      ],
+      "key_columns": [
+        "Category",
+        "Month"
+      ],
+      "value_columns": [
+        "Sales",
+        "Units"
+      ],
+      "rows_original": 48,
+      "rows_migrated": 48,
+      "rows_compared": 47,
+      "rows_matched": 46,
+      "missing_rows": 1,
+      "additional_rows": 1,
+      "numeric_mismatches": 1,
+      "duplicate_keys": 0,
+      "matching_records": [
+        {
+          "Category": "Apparel",
+          "Month": "2024-01",
+          "Sales": "37335.97",
+          "Units": "260.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-02",
+          "Sales": "29934.13",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-03",
+          "Sales": "36084.96",
+          "Units": "728.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-04",
+          "Sales": "38181.56",
+          "Units": "173.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-05",
+          "Sales": "6008.30",
+          "Units": "399.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-06",
+          "Sales": "23511.82",
+          "Units": "137.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-07",
+          "Sales": "44387.14",
+          "Units": "380.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-08",
+          "Sales": "49275.85",
+          "Units": "885.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-09",
+          "Sales": "8970.05",
+          "Units": "373.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-10",
+          "Sales": "32113.94",
+          "Units": "556.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-11",
+          "Sales": "34719.94",
+          "Units": "234.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-12",
+          "Sales": "40447.24",
+          "Units": "420.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-01",
+          "Sales": "32331.91",
+          "Units": "35.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-02",
+          "Sales": "44716.80",
+          "Units": "99.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-04",
+          "Sales": "40662.09",
+          "Units": "16.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-05",
+          "Sales": "47903.44",
+          "Units": "354.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-06",
+          "Sales": "40549.29",
+          "Units": "757.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-07",
+          "Sales": "41640.83",
+          "Units": "643.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-08",
+          "Sales": "12167.02",
+          "Units": "306.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-09",
+          "Sales": "32148.54",
+          "Units": "383.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-10",
+          "Sales": "32753.73",
+          "Units": "633.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-11",
+          "Sales": "49486.64",
+          "Units": "665.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-12",
+          "Sales": "12223.36",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-01",
+          "Sales": "11937.33",
+          "Units": "764.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-02",
+          "Sales": "2460.06",
+          "Units": "233.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-03",
+          "Sales": "27702.13",
+          "Units": "235.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-04",
+          "Sales": "35208.83",
+          "Units": "358.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-05",
+          "Sales": "5739.10",
+          "Units": "877.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-06",
+          "Sales": "48682.67",
+          "Units": "397.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-08",
+          "Sales": "12406.75",
+          "Units": "113.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-09",
+          "Sales": "11265.84",
+          "Units": "283.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-10",
+          "Sales": "36727.21",
+          "Units": "177.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-11",
+          "Sales": "34546.10",
+          "Units": "873.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-12",
+          "Sales": "14119.30",
+          "Units": "226.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-01",
+          "Sales": "6022.26",
+          "Units": "768.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-02",
+          "Sales": "12400.38",
+          "Units": "626.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-03",
+          "Sales": "23011.24",
+          "Units": "294.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-04",
+          "Sales": "14615.70",
+          "Units": "230.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-05",
+          "Sales": "17853.83",
+          "Units": "280.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-06",
+          "Sales": "4861.21",
+          "Units": "310.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-07",
+          "Sales": "4408.20",
+          "Units": "687.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-08",
+          "Sales": "19626.19",
+          "Units": "474.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-09",
+          "Sales": "35389.20",
+          "Units": "709.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-10",
+          "Sales": "23650.75",
+          "Units": "286.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-11",
+          "Sales": "38647.37",
+          "Units": "67.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-12",
+          "Sales": "45743.67",
+          "Units": "590.00"
+        }
+      ],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {
+            "Category": "Electronics",
+            "Month": "2024-03"
+          },
+          "column": "Sales",
+          "original_value": "2300.26",
+          "migrated_value": "3800.26",
+          "absolute_difference": "1500.00",
+          "percentage_difference": "65.210020",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": ""
+        },
+        {
+          "mismatch_type": "MISSING_RECORD",
+          "key": {
+            "Category": "Home",
+            "Month": "2024-07"
+          },
+          "column": null,
+          "original_value": {
+            "Sales": "29290.26",
+            "Units": "0.00"
+          },
+          "migrated_value": null,
+          "absolute_difference": null,
+          "percentage_difference": null,
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": "record present in original, absent in migrated"
+        },
+        {
+          "mismatch_type": "ADDITIONAL_RECORD",
+          "key": {
+            "Category": "Accessories",
+            "Month": "2024-12"
+          },
+          "column": null,
+          "original_value": null,
+          "migrated_value": {
+            "Sales": "800.00",
+            "Units": "0.00"
+          },
+          "absolute_difference": null,
+          "percentage_difference": null,
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": "record present in migrated, absent in original"
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "date 'Month' normalized to monthly granularity",
+        "numeric parse 'Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "numeric parse 'Units' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Category": "Apparel",
+          "Month": "2024-01",
+          "Sales": "37335.97",
+          "Units": "260.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-02",
+          "Sales": "29934.13",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-03",
+          "Sales": "36084.96",
+          "Units": "728.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-04",
+          "Sales": "38181.56",
+          "Units": "173.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-05",
+          "Sales": "6008.30",
+          "Units": "399.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-06",
+          "Sales": "23511.82",
+          "Units": "137.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-07",
+          "Sales": "44387.14",
+          "Units": "380.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-08",
+          "Sales": "49275.85",
+          "Units": "885.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-09",
+          "Sales": "8970.05",
+          "Units": "373.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-10",
+          "Sales": "32113.94",
+          "Units": "556.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-11",
+          "Sales": "34719.94",
+          "Units": "234.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-12",
+          "Sales": "40447.24",
+          "Units": "420.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-01",
+          "Sales": "32331.91",
+          "Units": "35.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-02",
+          "Sales": "44716.80",
+          "Units": "99.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-03",
+          "Sales": "2300.26",
+          "Units": "213.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-04",
+          "Sales": "40662.09",
+          "Units": "16.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-05",
+          "Sales": "47903.44",
+          "Units": "354.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-06",
+          "Sales": "40549.29",
+          "Units": "757.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-07",
+          "Sales": "41640.83",
+          "Units": "643.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-08",
+          "Sales": "12167.02",
+          "Units": "306.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-09",
+          "Sales": "32148.54",
+          "Units": "383.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-10",
+          "Sales": "32753.73",
+          "Units": "633.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-11",
+          "Sales": "49486.64",
+          "Units": "665.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-12",
+          "Sales": "12223.36",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-01",
+          "Sales": "11937.33",
+          "Units": "764.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-02",
+          "Sales": "2460.06",
+          "Units": "233.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-03",
+          "Sales": "27702.13",
+          "Units": "235.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-04",
+          "Sales": "35208.83",
+          "Units": "358.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-05",
+          "Sales": "5739.10",
+          "Units": "877.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-06",
+          "Sales": "48682.67",
+          "Units": "397.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-07",
+          "Sales": "29290.26",
+          "Units": "0.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-08",
+          "Sales": "12406.75",
+          "Units": "113.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-09",
+          "Sales": "11265.84",
+          "Units": "283.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-10",
+          "Sales": "36727.21",
+          "Units": "177.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-11",
+          "Sales": "34546.10",
+          "Units": "873.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-12",
+          "Sales": "14119.30",
+          "Units": "226.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-01",
+          "Sales": "6022.26",
+          "Units": "768.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-02",
+          "Sales": "12400.38",
+          "Units": "626.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-03",
+          "Sales": "23011.24",
+          "Units": "294.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-04",
+          "Sales": "14615.70",
+          "Units": "230.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-05",
+          "Sales": "17853.83",
+          "Units": "280.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-06",
+          "Sales": "4861.21",
+          "Units": "310.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-07",
+          "Sales": "4408.20",
+          "Units": "687.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-08",
+          "Sales": "19626.19",
+          "Units": "474.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-09",
+          "Sales": "35389.20",
+          "Units": "709.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-10",
+          "Sales": "23650.75",
+          "Units": "286.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-11",
+          "Sales": "38647.37",
+          "Units": "67.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-12",
+          "Sales": "45743.67",
+          "Units": "590.00"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Category": "Accessories",
+          "Month": "2024-12",
+          "Sales": "800.00",
+          "Units": "0.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-01",
+          "Sales": "37335.97",
+          "Units": "260.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-02",
+          "Sales": "29934.13",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-03",
+          "Sales": "36084.96",
+          "Units": "728.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-04",
+          "Sales": "38181.56",
+          "Units": "173.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-05",
+          "Sales": "6008.30",
+          "Units": "399.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-06",
+          "Sales": "23511.82",
+          "Units": "137.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-07",
+          "Sales": "44387.14",
+          "Units": "380.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-08",
+          "Sales": "49275.85",
+          "Units": "885.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-09",
+          "Sales": "8970.05",
+          "Units": "373.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-10",
+          "Sales": "32113.94",
+          "Units": "556.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-11",
+          "Sales": "34719.94",
+          "Units": "234.00"
+        },
+        {
+          "Category": "Apparel",
+          "Month": "2024-12",
+          "Sales": "40447.24",
+          "Units": "420.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-01",
+          "Sales": "32331.91",
+          "Units": "35.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-02",
+          "Sales": "44716.80",
+          "Units": "99.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-03",
+          "Sales": "3800.26",
+          "Units": "213.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-04",
+          "Sales": "40662.09",
+          "Units": "16.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-05",
+          "Sales": "47903.44",
+          "Units": "354.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-06",
+          "Sales": "40549.29",
+          "Units": "757.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-07",
+          "Sales": "41640.83",
+          "Units": "643.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-08",
+          "Sales": "12167.02",
+          "Units": "306.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-09",
+          "Sales": "32148.54",
+          "Units": "383.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-10",
+          "Sales": "32753.73",
+          "Units": "633.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-11",
+          "Sales": "49486.64",
+          "Units": "665.00"
+        },
+        {
+          "Category": "Electronics",
+          "Month": "2024-12",
+          "Sales": "12223.36",
+          "Units": "42.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-01",
+          "Sales": "11937.33",
+          "Units": "764.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-02",
+          "Sales": "2460.06",
+          "Units": "233.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-03",
+          "Sales": "27702.13",
+          "Units": "235.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-04",
+          "Sales": "35208.83",
+          "Units": "358.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-05",
+          "Sales": "5739.10",
+          "Units": "877.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-06",
+          "Sales": "48682.67",
+          "Units": "397.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-08",
+          "Sales": "12406.75",
+          "Units": "113.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-09",
+          "Sales": "11265.84",
+          "Units": "283.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-10",
+          "Sales": "36727.21",
+          "Units": "177.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-11",
+          "Sales": "34546.10",
+          "Units": "873.00"
+        },
+        {
+          "Category": "Home",
+          "Month": "2024-12",
+          "Sales": "14119.30",
+          "Units": "226.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-01",
+          "Sales": "6022.26",
+          "Units": "768.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-02",
+          "Sales": "12400.38",
+          "Units": "626.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-03",
+          "Sales": "23011.24",
+          "Units": "294.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-04",
+          "Sales": "14615.70",
+          "Units": "230.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-05",
+          "Sales": "17853.83",
+          "Units": "280.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-06",
+          "Sales": "4861.21",
+          "Units": "310.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-07",
+          "Sales": "4408.20",
+          "Units": "687.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-08",
+          "Sales": "19626.19",
+          "Units": "474.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-09",
+          "Sales": "35389.20",
+          "Units": "709.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-10",
+          "Sales": "23650.75",
+          "Units": "286.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-11",
+          "Sales": "38647.37",
+          "Units": "67.00"
+        },
+        {
+          "Category": "Sports",
+          "Month": "2024-12",
+          "Sales": "45743.67",
+          "Units": "590.00"
+        }
+      ],
+      "mapping_confidence": 0.795,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Category",
+          "migrated": "Category",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 1.0
+        },
+        {
+          "original": "Month",
+          "migrated": "Period",
+          "role": "key",
+          "provenance": "auto",
+          "confidence": 0.8
+        },
+        {
+          "original": "Sales",
+          "migrated": "Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        },
+        {
+          "original": "Units",
+          "migrated": "Units",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 1.0
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {
+        "Category": [
+          "Accessories"
+        ]
+      },
+      "derived_totals": [
+        {
+          "column": "Sales",
+          "original_total": "1286170.39",
+          "migrated_total": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "within_tolerance": false,
+          "note": "derived by summing exported rows (not an exported total)"
+        },
+        {
+          "column": "Units",
+          "original_total": "18590.00",
+          "migrated_total": "18590.00",
+          "absolute_difference": "0.00",
+          "percentage_difference": "0.000000",
+          "within_tolerance": true,
+          "note": "derived by summing exported rows (not an exported total)"
+        }
+      ],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided).",
+        "Date column 'Month': original granularity monthly, migrated daily; compared at monthly."
+      ]
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6c7",
+      "original_title": "Total Sales",
+      "original_page_display": "Sales Overview",
+      "migrated_page": "ReportSectionAA01",
+      "migrated_visual": "c3d11e22f3a4b5c6d7e8",
+      "migrated_title": "Total Revenue",
+      "migrated_page_display": "Overview",
+      "visual_type": "card",
+      "mandatory": true,
+      "status": "FAIL",
+      "reasons": [
+        "Confirmed differences: VALUE_MISMATCH=1"
+      ],
+      "key_columns": [],
+      "value_columns": [
+        "Total Sales"
+      ],
+      "rows_original": 1,
+      "rows_migrated": 1,
+      "rows_compared": 1,
+      "rows_matched": 0,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 1,
+      "duplicate_keys": 0,
+      "matching_records": [],
+      "mismatches": [
+        {
+          "mismatch_type": "VALUE_MISMATCH",
+          "key": {},
+          "column": "Total Sales",
+          "original_value": "1286170.39",
+          "migrated_value": "1259180.13",
+          "absolute_difference": "-26990.26",
+          "percentage_difference": "-2.098498",
+          "percentage_note": null,
+          "confirmed": true,
+          "detail": "displayed value differs"
+        }
+      ],
+      "normalization_applied": [
+        "trim whitespace (column headers)",
+        "trim whitespace (text values)",
+        "numeric parse 'Total Sales' (currency=stripped, thousands=',', decimal='.', percent=as_number), rounded to 2 dp (ROUND_HALF_UP)",
+        "null tokens '', '(Blank)', 'null', 'NULL', 'NaN', 'N/A' -> null"
+      ],
+      "normalized_original": [
+        {
+          "Total Sales": "1286170.39"
+        }
+      ],
+      "normalized_migrated": [
+        {
+          "Total Sales": "1259180.13"
+        }
+      ],
+      "mapping_confidence": 0.7909,
+      "mapping_provenance": "auto",
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [
+        {
+          "original": "Total Sales",
+          "migrated": "Total Revenue",
+          "role": "value",
+          "provenance": "auto",
+          "confidence": 0.8
+        }
+      ],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [],
+      "notes": [
+        "Column mapping auto-suggested (no approved column mapping provided)."
+      ]
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6d3",
+      "original_title": "Target Bullet",
+      "original_page_display": "Sales Overview",
+      "migrated_page": null,
+      "migrated_visual": null,
+      "migrated_title": null,
+      "migrated_page_display": null,
+      "visual_type": "bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B",
+      "mandatory": true,
+      "status": "UNSUPPORTED",
+      "reasons": [
+        "original visual 'Target Bullet' (bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B) unsupported: Looks like a custom (AppSource/organizational) visual; custom visuals are not supported by exportData (documented). Export attempted to confirm. Export error: Export data is not supported for this visual",
+        "Visual is also not mapped to a counterpart."
+      ],
+      "key_columns": [],
+      "value_columns": [],
+      "rows_original": 0,
+      "rows_migrated": 0,
+      "rows_compared": 0,
+      "rows_matched": 0,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 0,
+      "duplicate_keys": 0,
+      "matching_records": [],
+      "mismatches": [],
+      "normalization_applied": [],
+      "normalized_original": [],
+      "normalized_migrated": [],
+      "mapping_confidence": null,
+      "mapping_provenance": null,
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [],
+      "notes": []
+    },
+    {
+      "original_page": "ReportSection1a2b",
+      "original_visual": "a1f00c11d2e3f4a5b6d4",
+      "original_title": "R Forecast",
+      "original_page_display": "Sales Overview",
+      "migrated_page": null,
+      "migrated_visual": null,
+      "migrated_title": null,
+      "migrated_page_display": null,
+      "visual_type": "scriptVisual",
+      "mandatory": true,
+      "status": "UNSUPPORTED",
+      "reasons": [
+        "original visual 'R Forecast' (scriptVisual) unsupported: R visuals are not supported by exportData (documented).",
+        "Visual is also not mapped to a counterpart."
+      ],
+      "key_columns": [],
+      "value_columns": [],
+      "rows_original": 0,
+      "rows_migrated": 0,
+      "rows_compared": 0,
+      "rows_matched": 0,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 0,
+      "duplicate_keys": 0,
+      "matching_records": [],
+      "mismatches": [],
+      "normalization_applied": [],
+      "normalized_original": [],
+      "normalized_migrated": [],
+      "mapping_confidence": null,
+      "mapping_provenance": null,
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [],
+      "notes": []
+    },
+    {
+      "original_page": null,
+      "original_visual": null,
+      "original_title": null,
+      "original_page_display": null,
+      "migrated_page": "ReportSectionAA01",
+      "migrated_visual": "c3d11e22f3a4b5c6d7f2",
+      "migrated_title": "Margin %",
+      "migrated_page_display": "Overview",
+      "visual_type": "card",
+      "mandatory": false,
+      "status": "NOT_MAPPED",
+      "reasons": [
+        "No approved mapping to a visual in the other report.",
+        "Visual exists only in the migrated report (informational, not mandatory)."
+      ],
+      "key_columns": [],
+      "value_columns": [],
+      "rows_original": 0,
+      "rows_migrated": 0,
+      "rows_compared": 0,
+      "rows_matched": 0,
+      "missing_rows": 0,
+      "additional_rows": 0,
+      "numeric_mismatches": 0,
+      "duplicate_keys": 0,
+      "matching_records": [],
+      "mismatches": [],
+      "normalization_applied": [],
+      "normalized_original": [],
+      "normalized_migrated": [],
+      "mapping_confidence": null,
+      "mapping_provenance": null,
+      "source_methods": [
+        "MOCK_FIXTURE"
+      ],
+      "column_mappings_used": [],
+      "unmapped_columns": {},
+      "missing_categories": {},
+      "additional_categories": {},
+      "derived_totals": [],
+      "notes": []
+    }
+  ],
+  "_meta": {
+    "data_source": "MOCK_FIXTURE",
+    "integrity": "raw_csv SHA-256 recorded per visual in raw_sha256",
+    "schema": "ComparisonRunResult (core/contracts.py)"
+  }
+}

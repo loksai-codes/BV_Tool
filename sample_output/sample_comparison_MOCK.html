@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>DEMO (mock data) — China reconciliation — Visual Data Comparison</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;margin:24px;color:#1f2937;max-width:1400px}
+h1{font-size:22px;margin:0 0 4px} h2{font-size:17px;margin-top:28px;border-bottom:1px solid #e5e7eb;padding-bottom:4px}
+.banner{background:#fde2e2;color:#9b1c1c;padding:8px 12px;border-radius:6px;font-weight:600;margin:12px 0}
+.kpis{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}.kpi{border:1px solid #e5e7eb;border-radius:8px;padding:10px 14px;min-width:120px}
+.kpi b{display:block;font-size:20px}.kpi span{font-size:12px;color:#6b7280}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-top:8px}th,td{border:1px solid #e5e7eb;padding:5px 7px;text-align:left;vertical-align:top}
+th{background:#f3f4f6}.s{font-weight:600;padding:2px 8px;border-radius:10px;white-space:nowrap}
+.PASS{background:#c6efce;color:#006100}.FAIL{background:#ffc7ce;color:#9c0006}.PARTIAL,.INCONCLUSIVE{background:#ffeb9c;color:#7a5b00}
+.UNSUPPORTED,.NOT_MAPPED{background:#e5e7eb;color:#374151} .muted{color:#6b7280;font-size:12px}
+</style></head><body>
+<h1>DEMO (mock data) — China reconciliation</h1>
+<div class="muted">Run — · 2026-11-25 11:30 UTC · context: China</div>
+<div class="banner">MOCK DATA — generated from test fixtures, NOT from Power BI</div>
+<p>Overall status: <span class="s FAIL">FAIL</span></p>
+<ul><li>6 mandatory visual(s) have confirmed differences (PASS=1, FAIL=6, UNSUPPORTED=2).</li></ul>
+<div class="kpis"><div class="kpi"><b>10</b><span>total visuals</span></div><div class="kpi"><b>9</b><span>matched visuals</span></div><div class="kpi"><b>1</b><span>passed</span></div><div class="kpi"><b>6</b><span>failed</span></div><div class="kpi"><b>0</b><span>partial</span></div><div class="kpi"><b>0</b><span>inconclusive</span></div><div class="kpi"><b>2</b><span>unsupported</span></div><div class="kpi"><b>1</b><span>not mapped</span></div><div class="kpi"><b>93</b><span>rows compared</span></div><div class="kpi"><b>1</b><span>missing rows</span></div><div class="kpi"><b>3</b><span>additional rows</span></div><div class="kpi"><b>10</b><span>numeric mismatches</span></div></div>
+<h2>Context evidence</h2>
+<table><tr><th>Report</th><th>Status</th><th>Action</th><th>Messages</th></tr>
+<tr><td>original — Sales Report (Original) [MOCK]</td><td><span class="s PASS">VALIDATED</span></td>
+<td>add</td><td>No existing report filter on the country field; adding Basic In filter. · Note: the Power BI JS API may not expose every effective filter (hidden filters, cross-highlighting, RLS). · Report-level filter Geography[CountryName] In [&#39;China&#39;] confirmed.</td></tr><tr><td>migrated — Sales Report (Migrated) [MOCK]</td><td><span class="s PASS">NOT_REQUIRED</span></td>
+<td></td><td>Note: the Power BI JS API may not expose every effective filter (hidden filters, cross-highlighting, RLS). · Context not applied (report expected to be single-country by design); no contradicting filters found. Data-level checks still apply.</td></tr></table>
+<h2>Visual summary</h2>
+<table><tr><th>Status</th><th>Original</th><th>Migrated</th><th>Type</th><th>Compared</th><th>Missing</th><th>Additional</th><th>Value mismatches</th><th>Reasons</th></tr>
+<tr><td><span class="s PASS">PASS</span></td>
+<td>Trends › Units Trend</td>
+<td>Trend Analysis › Units Trend</td>
+<td>lineChart</td><td>12</td><td>0</td><td>0</td><td>0</td>
+<td>All 12 compared record(s) within tolerance; extraction complete; context validated.</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Trends › Category by Quarter</td>
+<td>Trend Analysis › Category by Quarter</td>
+<td>pivotTable</td><td>16</td><td>0</td><td>1</td><td>2</td>
+<td>Confirmed differences: ADDITIONAL_RECORD=1, VALUE_MISMATCH=2</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Sales Overview › Sales by Month</td>
+<td>Overview › Revenue by Month</td>
+<td>clusteredColumnChart</td><td>12</td><td>0</td><td>0</td><td>3</td>
+<td>Confirmed differences: VALUE_MISMATCH=3</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Trends › Sales by Country</td>
+<td>Trend Analysis › Revenue by Country</td>
+<td>tableEx</td><td>1</td><td>0</td><td>0</td><td>1</td>
+<td>Confirmed differences: VALUE_MISMATCH=1</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Sales Overview › Sales Share by Category</td>
+<td>Overview › Revenue Share by Category</td>
+<td>pieChart</td><td>4</td><td>0</td><td>1</td><td>2</td>
+<td>Confirmed differences: ADDITIONAL_RECORD=1, VALUE_MISMATCH=2</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Sales Overview › Sales by Category and Month</td>
+<td>Overview › Revenue by Category &amp; Period</td>
+<td>tableEx</td><td>47</td><td>1</td><td>1</td><td>1</td>
+<td>Confirmed differences: ADDITIONAL_RECORD=1, MISSING_RECORD=1, VALUE_MISMATCH=1</td></tr><tr><td><span class="s FAIL">FAIL</span></td>
+<td>Sales Overview › Total Sales</td>
+<td>Overview › Total Revenue</td>
+<td>card</td><td>1</td><td>0</td><td>0</td><td>1</td>
+<td>Confirmed differences: VALUE_MISMATCH=1</td></tr><tr><td><span class="s UNSUPPORTED">UNSUPPORTED</span></td>
+<td>Sales Overview › Target Bullet</td>
+<td> › —</td>
+<td>bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>original visual &#39;Target Bullet&#39; (bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B) unsupported: Looks like a custom (AppSource/organizational) visual; custom visuals are not supported by exportData (documented). Export attempted to confirm. Export error: Export data is not supported for this visual · Visual is also not mapped to a counterpart.</td></tr><tr><td><span class="s UNSUPPORTED">UNSUPPORTED</span></td>
+<td>Sales Overview › R Forecast</td>
+<td> › —</td>
+<td>scriptVisual</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>original visual &#39;R Forecast&#39; (scriptVisual) unsupported: R visuals are not supported by exportData (documented). · Visual is also not mapped to a counterpart.</td></tr><tr><td><span class="s NOT_MAPPED">NOT_MAPPED</span></td>
+<td> › —</td>
+<td>Overview › Margin %</td>
+<td>card</td><td>0</td><td>0</td><td>0</td><td>0</td>
+<td>No approved mapping to a visual in the other report. · Visual exists only in the migrated report (informational, not mandatory).</td></tr></table>
+<h2>Differences</h2>
+<table><tr><th>Visual</th><th>Type</th><th>Confirmed</th><th>Key</th><th>Column</th><th>Original</th><th>Migrated</th><th>Abs diff</th><th>% diff</th></tr>
+<tr><td>Category by Quarter</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Category&#34;: &#34;Electronics&#34;, &#34;Quarter&#34;: &#34;2024-Q1&#34;}</td><td>Sales</td>
+<td>79348.97</td><td>80848.97</td>
+<td>1500.00</td><td>1.890384</td></tr><tr><td>Category by Quarter</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Category&#34;: &#34;Home&#34;, &#34;Quarter&#34;: &#34;2024-Q3&#34;}</td><td>Sales</td>
+<td>52962.85</td><td>23672.59</td>
+<td>-29290.26</td><td>-55.303406</td></tr><tr><td>Category by Quarter</td><td>ADDITIONAL_RECORD</td><td>True</td><td>{&#34;Category&#34;: &#34;Accessories&#34;, &#34;Quarter&#34;: &#34;2024-Q4&#34;}</td><td></td>
+<td></td><td>{&#34;Sales&#34;: &#34;800.00&#34;}</td>
+<td></td><td></td></tr><tr><td>Sales by Month</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Month&#34;: &#34;2024-03&#34;}</td><td>Sales</td>
+<td>89098.59</td><td>90598.59</td>
+<td>1500.00</td><td>1.683528</td></tr><tr><td>Sales by Month</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Month&#34;: &#34;2024-07&#34;}</td><td>Sales</td>
+<td>119726.43</td><td>90436.17</td>
+<td>-29290.26</td><td>-24.464323</td></tr><tr><td>Sales by Month</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Month&#34;: &#34;2024-12&#34;}</td><td>Sales</td>
+<td>112533.57</td><td>113333.57</td>
+<td>800.00</td><td>0.710899</td></tr><tr><td>Sales by Country</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;CountryName&#34;: &#34;China&#34;}</td><td>Sales</td>
+<td>1286170.39</td><td>1259180.13</td>
+<td>-26990.26</td><td>-2.098498</td></tr><tr><td>Sales Share by Category</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Category&#34;: &#34;Electronics&#34;}</td><td>Sales</td>
+<td>388883.91</td><td>390383.91</td>
+<td>1500.00</td><td>0.385719</td></tr><tr><td>Sales Share by Category</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Category&#34;: &#34;Home&#34;}</td><td>Sales</td>
+<td>270085.58</td><td>240795.32</td>
+<td>-29290.26</td><td>-10.844807</td></tr><tr><td>Sales Share by Category</td><td>ADDITIONAL_RECORD</td><td>True</td><td>{&#34;Category&#34;: &#34;Accessories&#34;}</td><td></td>
+<td></td><td>{&#34;Sales&#34;: &#34;800.00&#34;}</td>
+<td></td><td></td></tr><tr><td>Sales by Category and Month</td><td>VALUE_MISMATCH</td><td>True</td><td>{&#34;Category&#34;: &#34;Electronics&#34;, &#34;Month&#34;: &#34;2024-03&#34;}</td><td>Sales</td>
+<td>2300.26</td><td>3800.26</td>
+<td>1500.00</td><td>65.210020</td></tr><tr><td>Sales by Category and Month</td><td>MISSING_RECORD</td><td>True</td><td>{&#34;Category&#34;: &#34;Home&#34;, &#34;Month&#34;: &#34;2024-07&#34;}</td><td></td>
+<td>{&#34;Sales&#34;: &#34;29290.26&#34;, &#34;Units&#34;: &#34;0.00&#34;}</td><td></td>
+<td></td><td></td></tr><tr><td>Sales by Category and Month</td><td>ADDITIONAL_RECORD</td><td>True</td><td>{&#34;Category&#34;: &#34;Accessories&#34;, &#34;Month&#34;: &#34;2024-12&#34;}</td><td></td>
+<td></td><td>{&#34;Sales&#34;: &#34;800.00&#34;, &#34;Units&#34;: &#34;0.00&#34;}</td>
+<td></td><td></td></tr><tr><td>Total Sales</td><td>VALUE_MISMATCH</td><td>True</td><td>{}</td><td>Total Sales</td>
+<td>1286170.39</td><td>1259180.13</td>
+<td>-26990.26</td><td>-2.098498</td></tr></table>
+
+<h2>Extraction errors &amp; unsupported visuals</h2>
+<table><tr><th>Role</th><th>Page</th><th>Visual</th><th>Type</th><th>Status</th><th>Detail</th></tr>
+<tr><td>original</td><td>Sales Overview</td><td>Target Bullet</td><td>bulletChart1A2B3C4D5E6F7A8B9C0D1E2F3A4B</td><td>UNSUPPORTED</td><td>Looks like a custom (AppSource/organizational) visual; custom visuals are not supported by exportData (documented). Export attempted to confirm. Export error: Export data is not supported for this visual</td></tr><tr><td>original</td><td>Sales Overview</td><td>R Forecast</td><td>scriptVisual</td><td>UNSUPPORTED</td><td>R visuals are not supported by exportData (documented).</td></tr></table>
+
+<p class="muted">Scope: actual exported visual data only. DAX definitions, schemas, relationships and model metadata are not compared.
+Context validation covers filters exposed by the Power BI JavaScript API; it cannot prove equivalence of hidden filters or RLS.</p>
+</body></html>

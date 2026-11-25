@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Power BI Visual Extractor Host</title>
+  <!-- Served only on 127.0.0.1 by powerbi/embed_host_server.py. No tokens are embedded in this file;
+       the access token is passed at runtime via page.evaluate and held only in browser memory. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; frame-src https://app.powerbi.com https://*.powerbi.com https://*.analysis.windows.net; connect-src 'self' https://*.powerbi.com https://*.analysis.windows.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:">
+  <style>html,body{margin:0;height:100%}#reportContainer{width:1600px;height:900px}</style>
+</head>
+<body>
+  <div id="reportContainer"></div>
+  <script src="vendor/powerbi.min.js"></script>
+  <script src="powerbi_extractor.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+[project]
+name = "powerbi-visual-comparator"
+version = "0.1.0"
+description = "Read-only reconciliation of exported Power BI visual data between two reports"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers -m 'not live'"
+markers = [
+    "live: requires a real Power BI tenant and credentials (never run by default)",
+    "browser: requires Playwright Chromium (mock Power BI SDK, no network)",
+]
+filterwarnings = ["ignore::DeprecationWarning:streamlit.*"]

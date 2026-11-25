@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">How the comparator works</title>
+  <desc id="d">Seven steps from sign-in to report, with data flowing left to right and each step lighting up in turn.</desc>
+  <defs>
+    <style>
+      text { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; }
+      .card  { fill: #111c2e; stroke: #2c4466; stroke-width: 1.5; }
+      .glow  { fill: none; stroke: #3987e5; stroke-width: 3; opacity: 0; animation: glow 7s ease-in-out infinite; }
+      .s1{animation-delay:0s}.s2{animation-delay:1s}.s3{animation-delay:2s}.s4{animation-delay:3s}.s5{animation-delay:4s}.s6{animation-delay:5s}.s7{animation-delay:6s}
+      @keyframes glow { 0%{opacity:0} 5%{opacity:1} 14%{opacity:1} 20%,100%{opacity:0} }
+      .num   { font-size: 13px; font-weight: 700; fill: #86b6ef; }
+      .name  { font-size: 15px; font-weight: 700; fill: #ffffff; }
+      .what  { font-size: 11.5px; fill: #9fb2cc; }
+      .flow  { stroke: #3987e5; stroke-width: 2.5; fill: none; stroke-dasharray: 4 8; animation: flow 0.9s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -12; } }
+      .dot   { fill: #86b6ef; }
+      .guard { font-size: 12.5px; fill: #b7c6dd; }
+      .pill  { fill: #0f2a1a; stroke: #0ca30c; }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .glow { opacity: 0; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="#0b1220"/>
+  <text x="32" y="40" font-size="18" font-weight="700" fill="#ffffff">How it works</text>
+  <text x="32" y="62" class="what">Each step hands typed evidence to the next. Every visual is recorded, even if it fails or is not supported.</text>
+
+  <g transform="translate(32,88)">
+    <!-- connectors -->
+    <path class="flow" d="M150 60 H 166"/><path class="flow" d="M316 60 H 332"/><path class="flow" d="M482 60 H 498"/>
+    <path class="flow" d="M648 60 H 664"/><path class="flow" d="M814 60 H 830"/><path class="flow" d="M980 60 H 996"/>
+    <circle class="dot" r="4"><animateMotion dur="7s" repeatCount="indefinite" path="M75 125 H 1071"/></circle>
+    <path d="M75 125 H 1071" stroke="#22324a" stroke-width="2"/>
+
+    <g><rect class="card" width="150" height="120" rx="12"/><rect class="glow s1" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">01</text><text class="name" x="14" y="50">Sign in</text>
+      <text class="what" x="14" y="72">Microsoft Entra ID</text><text class="what" x="14" y="88">(MSAL)</text></g>
+    <g transform="translate(166,0)"><rect class="card" width="150" height="120" rx="12"/><rect class="glow s2" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">02</text><text class="name" x="14" y="50">Discover</text>
+      <text class="what" x="14" y="72">Workspaces, reports,</text><text class="what" x="14" y="88">pages (REST, GET only)</text></g>
+    <g transform="translate(332,0)"><rect class="card" width="150" height="120" rx="12"/><rect class="glow s3" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">03</text><text class="name" x="14" y="50">Embed + China</text>
+      <text class="what" x="14" y="72">View mode, filter</text><text class="what" x="14" y="88">applied &amp; validated</text></g>
+    <g transform="translate(498,0)"><rect class="card" width="150" height="120" rx="12"/><rect class="glow s4" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">04</text><text class="name" x="14" y="50">Export visuals</text>
+      <text class="what" x="14" y="72">exportData() one by</text><text class="what" x="14" y="88">one, raw CSV + SHA-256</text></g>
+    <g transform="translate(664,0)"><rect class="card" width="150" height="120" rx="12"/><rect class="glow s5" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">05</text><text class="name" x="14" y="50">Match</text>
+      <text class="what" x="14" y="72">Visuals &amp; columns,</text><text class="what" x="14" y="88">scored + you approve</text></g>
+    <g transform="translate(830,0)"><rect class="card" width="150" height="120" rx="12"/><rect class="glow s6" width="150" height="120" rx="12"/>
+      <text class="num" x="14" y="26">06</text><text class="name" x="14" y="50">Reconcile</text>
+      <text class="what" x="14" y="72">Normalize copies,</text><text class="what" x="14" y="88">compare by keys</text></g>
+    <g transform="translate(996,0)"><rect class="card" width="140" height="120" rx="12"/><rect class="glow s7" width="140" height="120" rx="12"/>
+      <text class="num" x="14" y="26">07</text><text class="name" x="14" y="50">Report</text>
+      <text class="what" x="14" y="72">Excel · CSV · JSON</text><text class="what" x="14" y="88">HTML · history</text></g>
+  </g>
+
+  <g transform="translate(32,246)">
+    <rect class="pill" width="1136" height="34" rx="17"/>
+    <text class="guard" x="568" y="22" text-anchor="middle">Read-only by design · GET-only API client · reports opened in View mode, never saved · no RLS bypass or impersonation · tokens never stored in plain text</text>
+  </g>
+</svg>
